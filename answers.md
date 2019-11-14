@@ -25,3 +25,18 @@ WHERE
             offices
         WHERE
             country = 'USA')
+
+4, 
+SELECT 
+    country,count(*) as number
+FROM (
+SELECT
+	e.firstName, 
+    e.LastName, 
+    c.country
+FROM employees e
+LEFT JOIN offices c
+ON e.officeCode = c.officeCode
+    ) AS list
+    GROUP BY country
+    HAVING(number > 4)

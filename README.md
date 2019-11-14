@@ -9,6 +9,6 @@ root
 phpmyadmin pass:
 root
 
-# 1, Válasszuk ki azokat az employeeket akiknek M betűvel kezdődik a vezetékneve és állítsuk office code alapján csökkenő sorrendben
-# 2, Melyik irodában dolgozik és mi a neve a 1501 alkalmazottnak.
-# 3, Hogy hívják azokat a dolgozókat akik USÁ-ban lévő irodában dolgoznak
+### 1, Válasszuk ki azokat az employeeket akiknek M betűvel kezdődik a vezetékneve és állítsuk office code alapján csökkenő sorrendben
+### 2, Melyik irodában dolgozik és mi a neve a 1501 alkalmazottnak.
+### 3, Hogy hívják azokat a dolgozókat akik USA-ban lévő irodában dolgoznak

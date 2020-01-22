@@ -17,3 +17,4 @@ classicmodels db
 ### 2, Melyik irodában dolgozik és mi a neve a 1501 alkalmazottnak.
 ### 3, Hogy hívják azokat a dolgozókat akik USA-ban lévő irodában dolgoznak
 ### 4, Melyek azok az országok ahol négynél többen dolgoznak?
+### 5, Legrégebben a cégnél dolgozók listája elég az emp_no és a from_date

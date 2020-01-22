@@ -40,3 +40,7 @@ ON e.officeCode = c.officeCode
     ) AS list
     GROUP BY country
     HAVING(number > 4)
+    
+    
+5,
+SELECT emp_no, from_date FROM `dept_emp` WHERE from_date = (SELECT min(from_date) FROM `dept_emp` )
